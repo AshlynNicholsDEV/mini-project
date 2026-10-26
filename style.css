@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-* {
+main {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -130,7 +130,8 @@ header {
   margin-left: 60px;
 }
 
-.hero__description--button {
+.hero__description--button,
+button {
   background-color: #c231c2;
   width: 95%;
   color: white;
@@ -164,7 +165,9 @@ img {
 /* SOCIAL */
 
 #about,
-#social {
+#social,
+#contact,
+footer {
   padding: 24px 0;
   width: 100%;
   max-width: 1200px;
@@ -183,6 +186,11 @@ img {
   border-radius: 0 16px 16px 0;
 }
 
+.section__card--about {
+  background-color: #ffeaaf;
+  border-right: 20px solid #badcee;
+}
+
 .section__description {
   display: flex;
   justify-content: center;
@@ -198,11 +206,6 @@ img {
   margin-bottom: 16px;
   font-family: "Space Mono", monospace;
   letter-spacing: 8px;
-}
-
-.section__card--about {
-  background-color: #ffeaaf;
-  border-right: 20px solid #badcee;
 }
 
 .section__card--social {
@@ -224,4 +227,108 @@ img {
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 24px;
+}
+
+/* Contact */
+
+.section__card--contact {
+  border: dashed #c231c2;
+  width: 96%;
+  border-radius: 16px;
+}
+
+form {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 24px;
+  gap: 12px;
+}
+
+input,
+textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+  width: 500px;
+  border-radius: 6px;
+}
+
+/* Footer*/
+
+footer {
+  background-color: #badcee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1.5px dashed #cbd5e1;
+  padding: 12px 20px;
+  border-radius: 20% 20% 0 0;
+}
+
+.footer__logo {
+  margin: 8px;
+}
+
+.footer__links {
+  margin-bottom: 16px;
+}
+
+.footer__link {
+  padding: 0 16px;
+}
+
+/* RESPONSIVENESS */
+
+/* Smaller Screen */
+
+@media (max-width: 1024px) {
+  .section__description--para {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  a {
+    font-size: 16px;
+  }
+
+  .course {
+    gap: 4px;
+  }
+
+  .course__title {
+    margin-left: 0;
+    font-size: 40px;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+  .hero__img--wrapper {
+    max-width: 500px;
+  }
+
+  .hero__description {
+    margin-left: 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .section__description {
+    flex-direction: column;
+  }
+
+  .section__description--wrapper {
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    width: 400px;
+  }
 }
