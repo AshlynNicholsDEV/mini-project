@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+ /* font-family: "Manrope", sans-serif;*/
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Manrope", sans-serif;
+font-weight: 500;
+}
+
+body{
+  background-color: #edf1f1;
+  color: #1a234d;
+  display: flex;
+}
+
+a {
+  color: #1a213e;
+  font-size: 20px;
+  font-weight: 300;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
+ul{
+  display: flex;
+}
+ li {
+  list-style-type: none;
+  padding-left: 16px;
+ }
+
+ h1 {
+  font-size: 60px;
+ }
+
+ /* NAVIGATION BAR */
+ 
+ nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 24px 12px;
+  background-color: white
+ }
+
+  }
+
+ .nav__links {
+  display: flex;
+  gap: 16px;
+ }
+ 
+ .logo {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+ }
+
+ .logo__image {
+  width: 40;
+  height: 50px;
+ }
+ 
+.logo__text {
+  font-size: 20px;
+  font-weight: 200;
+  color: #1a234d;
+
+
+
+ /*HEADER*/
+
+ header {
+  width: 100%;
+  margin: 0 auto;
+
+ }
+
+ .row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 8px;
+ }
+
+  
+ .row__course {
+  border-left: 1px dashed#cbd5e1;
+ }
+
+ .course{
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  margin-left: 40px;
+  gap: 20px;
+  align-items: center;
+  padding: 8px  
+ }
+
+ .course__icon {
+  font-size: 80px;
+ }
