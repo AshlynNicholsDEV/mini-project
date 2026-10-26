@@ -106,6 +106,20 @@ ul{
   font-size: 80px;
 }
 
+  .course__selection {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  color: #727892;
+  letter-spacing: 0.1px;
+  }
+
+  .course__title {
+    font-weight: 600;
+    font-size: 44px;
+    marigin-left: 32px;
+    letter-spacing: 2px;
+  }
+
  .hero {
   display: flex;
   justify-content: center;
@@ -143,16 +157,9 @@ ul{
  img {
   width: 100%;}
 
-  .course__selection {
-  font-family: "Space Mono", monospace;
-  font-weight: bold;
-  color: #727892;
-  letter-spacing: 0.1px;
-  }
-
-  .course__title {
-    font-weight: 600;
-    font -size: 44px;
-    marigin-left: 32px;
-    letter-spacing: 2px;
+  .subheader {
+    font-size: 20px;
+    margin: 16px 0 24px 0;
+    font-weight: 400;
+    color: #64748b
   }
