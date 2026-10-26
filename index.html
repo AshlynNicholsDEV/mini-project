@@ -1,84 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mini Project</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <!-- HEADER -->
-   <section>
-    <nav>
-      <div class="logo">
-        <img src="./assets/fes-logo.png" alt="FES Logo" class="logo__image" width="50" height="50">
-        <h1 class="logo__text">
-          <b>Frontend</b> Simplified
-        </h1>
-      </div>
-      <ul>
-        <li>
-          <a href="#about">About</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <section>
+      <nav>
+        <div class="logo">
+          <img
+            src="./assets/fes-logo.png"
+            alt="FES Logo"
+            class="logo__image"
+            width="50"
+            height="50"
+          />
+          <h1 class="logo__text"><b>Frontend</b> Simplified</h1>
+        </div>
+        <ul>
           <li>
-          <a href="#socials">Socials</a></li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#social">Social</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-
-    <header>
-      <div class="row row__course">
-        <div class="course">
-          <h1 class="course__icon">💾</h1>
-          <div class="course__text">
-            <div class="course__selection">----YOUR COURSE----</div>
-            <div class="course__title">Software Engineering</div>
+      <header>
+        <div class="row row__course">
+          <div class="course">
+            <h1 class="course__icon">💾</h1>
+            <div class="course__text">
+              <div class="course__selection">----YOUR COURSE----</div>
+              <div class="course__title">Software Engineering</div>
+            </div>
           </div>
         </div>
-        </div>
-
 
         <div class="row">
           <div class="hero">
             <figure class="hero__img--wrapper">
-              <img src="./assets/laptop.png"
-               alt="Learn More">
+              <img src="./assets/laptop.png" alt="Learn More" />
             </figure>
             <div class="hero__description">
               <h1>Best place to learn frontend</h1>
-              <p class="subheader">Go from absolute beginner to pro with a simplified process</p>
+              <p class="subheader">
+                Go from absolute beginner to pro with a simplified process
+              </p>
               <a href="#about">
-                <button class="hero__description--button"> 
-                  ▷ LEARN MORE
-                </button>
+                <button class="hero__description--button">▷ LEARN MORE</button>
               </a>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
-  </section>
+      </header>
+    </section>
 
-  <main>
-  <section id="about">
-    <div class="row about__row">
-      <div class="section__card section__card--about"> 
-        <h1 class= "section__title">About<h1>
-         <div class="section__description--wrapper">
-          <p class="section__description--para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-             <p class="section__description--para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-         </div>
-         <figure class="section__img--wrapper">
-          <img src="./assets/reading.png" alt="About">
-         </figure>
-       </div>
-    </div>
-  </section>
-</main>
-</body>
+    <!-- MAIN -->
+
+    <main>
+      <!-- About Card -->
+
+      <section id="about">
+        <div class="row about__row">
+          <div class="section__card section__card--about">
+            <h1 class="section__title">About</h1>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <figure class="section__img--wrapper">
+              <img src="./assets/reading.png" alt="About" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Social Card -->
+
+      <section id="social">
+        <div class="row social__row">
+          <div class="section__card section__card--social">
+            <h1 class="section__title">Social</h1>
+            <div class= "section__description">
+               <figure class="section__img--wrapper">
+              <img src="./assets/social.png" alt="social" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
