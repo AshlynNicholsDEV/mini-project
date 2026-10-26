@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
- /* font-family: "Manrope", sans-serif;*/
 
 *{
 padding: 0;
@@ -143,3 +142,17 @@ ul{
 
  img {
   width: 100%;}
+
+  .course__selection {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  color: #727892;
+  letter-spacing: 0.1px;
+  }
+
+  .course__title {
+    font-weight: 600;
+    font -size: 44px;
+    marigin-left: 32px;
+    letter-spacing: 2px;
+  }
