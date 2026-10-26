@@ -100,25 +100,28 @@ ul{
   margin-left: 40px;
   gap: 20px;
   align-items: center;
-  padding: 8px  
- }
+  padding: 8px;
+}
 
  .course__icon {
   font-size: 80px;
- }
+}
 
  .hero {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px;
+ }
+
+ .hero__description {
+  margin-left: 60px;
  }
 
  .hero__img--wrapper {
   width: 100%;
   max-width: 540px;
-  
- }
+}
 
  img {
-  width: 100%;
- }
+  width: 100%;}
